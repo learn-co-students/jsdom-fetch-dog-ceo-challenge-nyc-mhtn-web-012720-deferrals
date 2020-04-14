@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
             const breedLi = document.createElement('li')
             breedLi.id = "dog-breed"
             breedLi.innerText = breed
+            breedLi.style.cursor = 'pointer'
             breedContainer.appendChild(breedLi)
         }
     };
@@ -40,6 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     const breedLi = document.createElement('li')
                     breedLi.id = "dog-breed"
                     breedLi.innerText = breed
+                    breedLi.style.cursor = 'pointer'
                     breedContainer.appendChild(breedLi)
                 }
             }        
